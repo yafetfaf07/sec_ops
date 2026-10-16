@@ -1,0 +1,14 @@
+.env
+*.log
+*.exe
+*.test
+*.out
+coverage.*
+tmp/
+.git
+.gitignore
+.gcloudignore
+PLAN.md
+agent.md
+TEST_REPORT.md
+docker-compose.yml
