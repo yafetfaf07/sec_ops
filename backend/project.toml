@@ -1,0 +1,6 @@
+# Google Cloud Buildpacks project descriptor. Lets a plain
+#   gcloud run deploy secops-api --source .
+# build the Go binary from ./cmd/api with no Dockerfile.
+[[build.env]]
+name = "GOOGLE_BUILDABLE"
+value = "./cmd/api"
